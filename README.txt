@@ -1,25 +1,23 @@
-TAMPA BAY BENEFITS GROUP WEBSITE
+TAMPA BAY BENEFITS GROUP — GITHUB READY
 
 FILES
 - index.html
-- styles.css
-- script.js
-- assets/logo.png
-- assets/hero-justin.png
-- assets/meet-justin.png
+- assets/homepage.png
 
-HOW TO PREVIEW
-1. Unzip the folder.
-2. Double-click index.html.
-3. It opens in your browser.
+WORKING LINKS
+- Email: JMorgan@tampabaybenefitsgroup.com
+- Phone: (941) 545-2615
+- LinkedIn: https://www.linkedin.com/in/justin-morgan-1374b6244
+- Schedule Consultation buttons open a new email addressed to Justin.
 
-HOW TO PUBLISH
-Option A: Upload the entire unzipped folder to a web host such as Netlify, Cloudflare Pages, GitHub Pages, or your hosting provider.
-Option B: In Squarespace, this cannot be imported as a full site. Squarespace requires rebuilding sections in its editor. You may use the files as the exact design/copy guide and add custom CSS where permitted.
+UPLOAD TO GITHUB
+1. Extract this ZIP.
+2. Create a new public GitHub repository.
+3. Upload index.html and the entire assets folder to the repository root.
+4. Open Settings > Pages.
+5. Under Build and deployment, choose Deploy from a branch.
+6. Choose branch main and folder /(root).
+7. Save and wait for GitHub to publish the site.
 
-BEFORE GOING LIVE
-- Connect the Schedule buttons to your appointment link.
-- Add a real contact form or booking tool.
-- Replace the Privacy Policy and Terms links.
-- Confirm Globe Life/agency branding and compliance requirements.
-- Confirm final product wording and disclosures.
+IMPORTANT
+Keep index.html and the assets folder together.
