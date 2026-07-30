@@ -5,121 +5,187 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tampa Bay Benefits Group | Justin Morgan</title>
   <meta name="description" content="Helping Tampa Bay businesses and families protect what matters most.">
-  <style>
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      background: #071f3d;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    .site {
-      position: relative;
-      width: 100%;
-      max-width: 1024px;
-      margin: 0 auto;
-      background: #fff;
-      line-height: 0;
-    }
-    .site img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-    .hotspot {
-      position: absolute;
-      display: block;
-      z-index: 10;
-      cursor: pointer;
-      border-radius: 8px;
-    }
-    .hotspot:focus-visible {
-      outline: 3px solid #fff;
-      box-shadow: 0 0 0 6px #dca52a;
-    }
-
-    /* Navigation */
-    .home      { left: 41.5%; top: 1.0%; width: 5.5%; height: 2.6%; }
-    .benefits  { left: 47.2%; top: 1.0%; width: 7.4%; height: 2.6%; }
-    .about     { left: 54.8%; top: 1.0%; width: 6.1%; height: 2.6%; }
-    .resources { left: 61.0%; top: 1.0%; width: 8.3%; height: 2.6%; }
-    .contact   { left: 69.7%; top: 1.0%; width: 7.0%; height: 2.6%; }
-
-    /* CTA buttons */
-    .schedule-top  { left: 77.7%; top: 0.8%; width: 19.0%; height: 3.3%; }
-    .about-justin  { left: 11.2%; top: 54.8%; width: 12.5%; height: 2.4%; }
-    .schedule-main { left: 65.2%; top: 87.1%; width: 23.2%; height: 4.2%; }
-
-    /* Footer links */
-    .phone {
-      left: 35.7%; top: 93.0%; width: 15.5%; height: 1.8%;
-    }
-    .email {
-      left: 35.7%; top: 94.7%; width: 25.0%; height: 1.8%;
-    }
-    .linkedin {
-      left: 81.7%; top: 98.2%; width: 3.8%; height: 1.6%;
-    }
-
-    /* Scroll targets */
-    .anchor {
-      position: absolute;
-      left: 0;
-      width: 1px;
-      height: 1px;
-    }
-    #top { top: 0; }
-    #about-section { top: 31.5%; }
-    #benefits-section { top: 61.0%; }
-    #resources-section { top: 73.0%; }
-    #contact-section { top: 90.0%; }
-
-    @media (max-width: 700px) {
-      body { background: #fff; }
-      .site { max-width: none; }
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="site">
-    <span id="top" class="anchor"></span>
-    <span id="about-section" class="anchor"></span>
-    <span id="benefits-section" class="anchor"></span>
-    <span id="resources-section" class="anchor"></span>
-    <span id="contact-section" class="anchor"></span>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Tampa Bay Benefits Group home">
+        <span class="brand-mark">◈</span>
+        <span>TAMPA BAY<br><b>BENEFITS GROUP</b></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#home">HOME</a>
+        <a href="#benefits">BENEFITS</a>
+        <a href="#about">ABOUT</a>
+        <a href="#resources">RESOURCES</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+      <a class="button button-gold top-cta"
+         href="mailto:JMorgan@tampabaybenefitsgroup.com?subject=Schedule%20a%20Consultation">
+        SCHEDULE CONSULTATION →
+      </a>
+    </div>
+  </header>
 
-    <img src="assets/homepage.png" alt="Tampa Bay Benefits Group homepage featuring Justin Morgan">
+  <main id="home">
+    <section class="hero">
+      <img src="assets/banner.png" alt="Justin Morgan helping Tampa Bay businesses and families protect what matters most">
+    </section>
 
-    <a class="hotspot home" href="#top" aria-label="Home"></a>
-    <a class="hotspot benefits" href="#benefits-section" aria-label="Benefits"></a>
-    <a class="hotspot about" href="#about-section" aria-label="About"></a>
-    <a class="hotspot resources" href="#resources-section" aria-label="Resources"></a>
-    <a class="hotspot contact" href="#contact-section" aria-label="Contact"></a>
+    <section class="about-section section" id="about">
+      <div class="container two-column">
+        <div class="about-copy">
+          <p class="eyebrow">YOUR TRUSTED BENEFITS ADVISOR</p>
+          <h1>Why Businesses<br>Choose Justin</h1>
+          <p class="intro">
+            I help Tampa Bay business owners build benefit solutions that work for their employees and their bottom line.
+          </p>
 
-    <a class="hotspot schedule-top"
-       href="mailto:JMorgan@tampabaybenefitsgroup.com?subject=Schedule%20a%20Consultation"
-       aria-label="Schedule a consultation"></a>
+          <div class="check-item">
+            <span class="check">✓</span>
+            <div><h3>LOCAL EXPERTISE</h3><p>I understand the unique needs of Tampa Bay businesses and their employees.</p></div>
+          </div>
+          <div class="check-item">
+            <span class="check">✓</span>
+            <div><h3>CUSTOM SOLUTIONS</h3><p>I design benefit packages that fit your goals, culture, and budget.</p></div>
+          </div>
+          <div class="check-item">
+            <span class="check">✓</span>
+            <div><h3>ONGOING PARTNERSHIP</h3><p>I’m here year-round to support you and your team.</p></div>
+          </div>
 
-    <a class="hotspot about-justin"
-       href="#about-section"
-       aria-label="About Justin Morgan"></a>
+          <a class="button button-navy" href="mailto:JMorgan@tampabaybenefitsgroup.com?subject=Learn%20More%20About%20Benefits">
+            ABOUT JUSTIN →
+          </a>
+        </div>
 
-    <a class="hotspot schedule-main"
-       href="mailto:JMorgan@tampabaybenefitsgroup.com?subject=Free%20Benefits%20Consultation"
-       aria-label="Schedule your free consultation"></a>
+        <div class="portrait-wrap">
+          <img class="portrait" src="assets/headshot.jpg" alt="Justin Morgan">
+          <div class="experience-card">
+            <div><strong>LOCAL</strong><span>BUSINESS FOCUS</span></div>
+            <div class="divider"></div>
+            <div><strong>TAMPA BAY</strong><span>PROUDLY SERVING</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <a class="hotspot phone"
-       href="tel:+19415452615"
-       aria-label="Call Justin Morgan at 941-545-2615"></a>
+    <section class="value-section section" id="benefits">
+      <div class="container">
+        <div class="value-panel">
+          <h2>More Value for Your Business &amp; Your Employees</h2>
+          <div class="value-grid">
+            <article>
+              <div class="icon">＄</div>
+              <h3>NO COST TO<br>THE BUSINESS</h3>
+              <p>Meet with us and implement voluntary benefits with no consulting fees and typically no employer contribution.</p>
+            </article>
+            <article>
+              <div class="icon">🎁</div>
+              <h3>IMMEDIATE VALUE<br>FOR EMPLOYEES</h3>
+              <p>Every new eligible worksite receives a $3,000 Accidental Death Benefit and a Health Discount Card at no cost.</p>
+            </article>
+            <article>
+              <div class="icon">▥</div>
+              <h3>PAYROLL TAX<br>SAVINGS</h3>
+              <p>Payroll deduction can reduce payroll tax liability while providing valuable benefits to employees.</p>
+            </article>
+            <article>
+              <div class="icon">🔒</div>
+              <h3>BENEFITS THAT<br>STAY WITH THEM</h3>
+              <p>Employees can often keep their coverage even if they change jobs, with many rates locked in for life.</p>
+            </article>
+            <article>
+              <div class="icon">●</div>
+              <h3>INDIVIDUAL<br>LIFE INSURANCE</h3>
+              <p>Life insurance solutions are also available for 1099 workers and their families.</p>
+            </article>
+          </div>
+          <p class="eligibility-note">
+            Eligibility generally applies to W-2 employees and owners employed at least six months and averaging 28 or more hours per week.
+          </p>
+        </div>
+      </div>
+    </section>
 
-    <a class="hotspot email"
-       href="mailto:JMorgan@tampabaybenefitsgroup.com"
-       aria-label="Email Justin Morgan"></a>
+    <section class="who-section section" id="resources">
+      <div class="container">
+        <p class="eyebrow centered">WHO WE HELP</p>
+        <h2 class="centered">Benefits for Businesses of All Sizes</h2>
+        <div class="who-grid">
+          <article><div class="who-icon">👥</div><h3>SMALL BUSINESSES</h3><p>5–25 Employees</p></article>
+          <article><div class="who-icon">🏬</div><h3>GROWING BUSINESSES</h3><p>25–100 Employees</p></article>
+          <article><div class="who-icon">🏢</div><h3>ESTABLISHED COMPANIES</h3><p>100+ Employees</p></article>
+          <article><div class="who-icon">♥</div><h3>NON-PROFITS<br>&amp; ORGANIZATIONS</h3></article>
+          <article><div class="who-icon">⛑</div><h3>INDUSTRIES</h3><p>All Types</p></article>
+        </div>
+      </div>
+    </section>
 
-    <a class="hotspot linkedin"
-       href="https://www.linkedin.com/in/justin-morgan-1374b6244"
-       target="_blank" rel="noopener noreferrer"
-       aria-label="Open Justin Morgan's LinkedIn profile"></a>
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <blockquote>
+          “Justin takes the time to truly understand our business and our people. He makes benefits simple, affordable, and something our team actually values.”
+          <cite>— MICHAEL T.<br><span>Business Owner, Bradenton</span></cite>
+        </blockquote>
+        <div class="trust-points">
+          <div>🤝<span>HONEST<br>ADVICE</span></div>
+          <div>◉<span>RESPONSIVE<br>SUPPORT</span></div>
+          <div>✓<span>STRONG<br>PARTNERSHIPS</span></div>
+          <div>★<span>PROVEN<br>RESULTS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="container cta-grid">
+        <h2>Let’s Strengthen Your<br><span>Employee Benefits.</span></h2>
+        <p>Schedule a free consultation to explore benefit solutions that help you attract, retain, and protect what matters most.</p>
+        <div class="cta-buttons">
+          <a class="button button-gold"
+             href="mailto:JMorgan@tampabaybenefitsgroup.com?subject=Free%20Benefits%20Consultation">
+            EMAIL JUSTIN
+          </a>
+          <a class="button button-gold" href="tel:+19415452615">CALL JUSTIN</a>
+          <a class="button button-gold"
+             href="https://www.linkedin.com/in/justin-morgan-1374b6244"
+             target="_blank" rel="noopener noreferrer">LINKEDIN</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">TAMPA BAY<br><b>BENEFITS GROUP</b></div>
+        <p>Helping Tampa Bay businesses and families protect what matters most through smart, affordable employee benefits.</p>
+      </div>
+      <div>
+        <h3>CONTACT</h3>
+        <p><a href="tel:+19415452615">(941) 545-2615</a></p>
+        <p><a href="mailto:JMorgan@tampabaybenefitsgroup.com">JMorgan@tampabaybenefitsgroup.com</a></p>
+        <p>Parrish, FL<br>Serving the Tampa Bay Area</p>
+      </div>
+      <div>
+        <h3>QUICK LINKS</h3>
+        <p><a href="#benefits">Benefits</a></p>
+        <p><a href="#about">About</a></p>
+        <p><a href="#resources">Resources</a></p>
+        <p><a href="#contact">Contact</a></p>
+      </div>
+      <div>
+        <h3>SERVING</h3>
+        <p>Parrish • Palmetto • Bradenton</p>
+        <p>Sarasota • Lakewood Ranch</p>
+        <p>Tampa Bay and Surrounding Areas</p>
+      </div>
+    </div>
+    <div class="copyright">© 2026 Tampa Bay Benefits Group. All rights reserved.</div>
+  </footer>
 </body>
 </html>

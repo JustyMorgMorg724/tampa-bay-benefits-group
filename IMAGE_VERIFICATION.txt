@@ -1,0 +1,8 @@
+IMAGE VERIFICATION
+Original banner SHA-256: 356ce09de6663710ea66f1590b60e755e69c7c184665d6fd102a0eb1c9a90943
+Packaged banner SHA-256: 356ce09de6663710ea66f1590b60e755e69c7c184665d6fd102a0eb1c9a90943
+
+Original headshot SHA-256: 6ee5c3cbd7bc8c480988fa392591a9d7536f94d738fb3185ab4fe3e571b805ad
+Packaged headshot SHA-256: 6ee5c3cbd7bc8c480988fa392591a9d7536f94d738fb3185ab4fe3e571b805ad
+
+Matching hashes confirm the packaged images are exact byte-for-byte copies.
