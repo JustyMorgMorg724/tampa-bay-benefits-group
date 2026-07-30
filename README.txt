@@ -22,3 +22,6 @@ GITHUB PAGES
 4. Go to Settings > Pages.
 5. Choose Deploy from a branch.
 6. Choose main and /(root), then Save.
+
+EMAIL FIX
+All email links now open a Gmail compose window in a new browser tab.
