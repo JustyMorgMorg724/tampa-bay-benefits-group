@@ -73,7 +73,7 @@ p { line-height: 1.65; }
 .hero-copy > p { max-width:660px; font-size:18px; margin:0 0 26px; }
 .hero-actions { display:flex; gap:18px; flex-wrap:wrap; }
 .hero-image {
-  background-image: linear-gradient(to bottom, transparent 65%, rgba(7,31,67,.82)), url("assets/hero-justin.png");
+  background-image: linear-gradient(to bottom, transparent 65%, rgba(7,31,67,.82)), url("hero-justin.png");
   background-size: cover;
   background-position: center;
   min-height:620px;
@@ -117,7 +117,7 @@ p { line-height: 1.65; }
   text-align:center;
   color:#fff;
   padding:40px 20px;
-  background: linear-gradient(rgba(7,31,67,.94),rgba(7,31,67,.94)), url("assets/hero-justin.png") center/cover;
+  background: linear-gradient(rgba(7,31,67,.94),rgba(7,31,67,.94)), url("hero-justin.png") center/cover;
 }
 .cta h2 { color:#fff; font-size:38px; margin:0 0 8px; }
 .cta p { margin:0 0 20px; }

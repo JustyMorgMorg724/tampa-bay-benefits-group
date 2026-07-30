@@ -1,0 +1,11 @@
+FINAL LIVE WEBSITE
+
+In GitHub:
+1. Open your tampa-bay-benefits-group repository.
+2. Add file > Upload files.
+3. Upload every file from this folder.
+4. Let GitHub replace index.html, styles.css, script.js, and the images.
+5. Commit changes.
+6. Wait 1–2 minutes, then refresh your live website.
+
+All images are intentionally in the repository root.
